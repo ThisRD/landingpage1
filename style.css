@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* importando fonte */
+
+*{
+    font-family: "Montserrat", sans-serif; /* definindo fonte */
+    padding: 0;
+    margin: 0;
+}
+/* estilização geral do site */
+
+.navbar{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(13, 142, 228);
+    height: 200px;
+}
+
+.list{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#list1{
+    margin-bottom: 2%;
+}
+
+.items{
+    height: 200%;
+    min-width: 200px;
+    width: 250%;
+    border: 1.5px solid transparent;
+    color: white;
+    font-size: 20px;
+    list-style: none;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    transition: 400ms ease-in-out;
+}
+
+.items:hover{
+    border: 1.5px solid rgb(34, 119, 175) ;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(25, 116, 177);
+    background-color: white;
+    color: rgb(13, 142, 228);
+}
+
+
+
+#item1{
+    margin-right: 20px;
+}
+
+
+#item2{
+    margin-right: 20px;
+}
+
+.align{
+    width: 40%;
+    padding: 2%;
+    min-width: 20%;
+}
+
+h2{
+    margin-bottom: 5%;
+}
+
+p {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+.parts{
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#part2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#align3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#serv1{
+    margin-right: 4%;
+}
+
+#serv2{
+    margin-right: 2%;
+}
+
+.servs img{
+    margin-top: 5%;
+}
+
+.separa{
+    background-color: rgb(13, 142, 228);
+    height: 4px;
+    border: none;
+}
